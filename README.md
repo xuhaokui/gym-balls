@@ -12,7 +12,7 @@ We will use the conda to build the virtual environment.
 
 ```bash
 conda create -n tf3 python=3.6 tensorflow-gpu
-# conda create -n tf3 python=3.6 tensorflow (withou GPU).
+# conda create -n tf3 python=3.6 tensorflow (without GPU).
 source activate tf3
 # General Requirement
 sudo apt-get install gcc libosmesa6-dev libgl1-mesa-dev libopenmpi-dev
